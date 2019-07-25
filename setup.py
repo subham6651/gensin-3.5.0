@@ -306,9 +306,9 @@ setup(
     ],
     install_requires=[
         'numpy == 1.16.2',
-        'scipy == 1.8.4',
-        'six == 1.12.0',
-        'smart_open == 1.8.4',
+         'scipy >= 0.18.1',
+        'six >= 1.5.0',
+        'smart_open >= 1.2.1',
     ],
     tests_require=linux_testenv,
     extras_require={
