@@ -302,7 +302,7 @@ setup(
 
     test_suite="gensim.test",
     setup_requires=[
-        'numpy >= 1.11.3'
+        'numpy == 1.16.2'
     ],
     install_requires=[
         'numpy == 1.16.2',
